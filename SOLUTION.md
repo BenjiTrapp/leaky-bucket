@@ -9,5 +9,5 @@ Either visit http://leakybucket.s3-eu-central-1.amazonaws.com/ and check the lis
 
 
 <p align="center">
-<img width="400" src="static/luke.png">
+<img src="static/luke.png">
 </p>
