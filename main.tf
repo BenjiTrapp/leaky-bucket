@@ -1,17 +1,3 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.15.1"
-    }
-  }
-}
-
-provider "aws" {
-  profile = "default"
-  region  = var.region
-}
-
 resource "aws_s3_bucket" "leaky" {
   bucket = "leakybucket"
   acl    = "public-read"
